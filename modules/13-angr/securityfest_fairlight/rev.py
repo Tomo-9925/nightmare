@@ -19,4 +19,4 @@ simulation.explore(find = 0x401a6e, avoid = 0x040074d)
 
 # Parse the correct input and print it
 solution = simulation.found[0]
-print solution.solver.eval(inp, cast_to=bytes)
+print(solution.solver.eval(inp, cast_to=bytes))
